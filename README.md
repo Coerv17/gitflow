@@ -19,13 +19,13 @@
 - Iniciando uma release
 
     ```bash
-    git flow release start 1.0
+    git flow release start 1.0.1
     ```
 
 - Finalizando a release
 
     ```bash
-    git flow release finish 1.0
+    git flow release finish 1.0.1
     ```
 
 - Fazendo o push das tags
