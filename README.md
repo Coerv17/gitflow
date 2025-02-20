@@ -22,14 +22,21 @@
     git flow release start 1.0.1
     ```
 
-- Finalizando a release
+- Primeiro, crie a tag com uma mensagem:
 
     ```bash
-    git flow release finish 1.0.1
+    git tag -a v1.0.1 -m "Release version 1.0.1"
     ```
+
 
 - Fazendo o push das tags
 
     ```bash
     git push --tags
+    ```
+
+- Finalizando a release
+
+    ```bash
+    git flow release finish 1.0.1
     ```
