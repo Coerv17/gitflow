@@ -1,40 +1,35 @@
-# gitflow
+- Iniciando
 
-````yaml
-
-
-- Inciando
-    
-    ```jsx
-    git init flow
+    ```bash
+    git flow init
     ```
-    
-- Inciando uma feature
-    
-    ```jsx
+
+- Iniciando uma feature
+
+    ```bash
     git flow feature start <NOME_DA_FEATURE>
     ```
-    
-- finalizando a feature
-    
-    ```jsx
-    git flow feature finish <nome-da-feature>
+
+- Finalizando a feature
+
+    ```bash
+    git flow feature finish <NOME_DA_FEATURE>
     ```
-    
-    - iniciando a release
-    
-    ```jsx
+
+- Iniciando uma release
+
+    ```bash
     git flow release start 1.0
     ```
-    
-    - finalizando a release
-    
-    ```jsx
+
+- Finalizando a release
+
+    ```bash
     git flow release finish 1.0
     ```
-    
-    - fazendo o push das tags
-    
-    ```jsx
-    git flow release finish 1.0
+
+- Fazendo o push das tags
+
+    ```bash
+    git push --tags
     ```
