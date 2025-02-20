@@ -1,42 +1,34 @@
-- Iniciando
+# Inicializar o Git Flow
+```bash
+git flow init
+```
 
-    ```bash
-    git flow init
-    ```
+# Criar uma nova feature
+```bash
+git flow feature start <NOME_DA_FEATURE>
+```
 
-- Iniciando uma feature
+# Finalizar a feature
+```bash
+git flow feature finish <NOME_DA_FEATURE>
+```
 
-    ```bash
-    git flow feature start <NOME_DA_FEATURE>
-    ```
+# Criar uma release
+```bash
+git flow release start 1.0.1
+```
 
-- Finalizando a feature
+# Finalizar a release (isso já cria a tag automaticamente!)
+```bash
+git flow release finish 1.0.1
+```
 
-    ```bash
-    git flow feature finish <NOME_DA_FEATURE>
-    ```
+# Fazer push de todas as branches (develop, master e outras)
+```bash
+git push --all
+```
 
-- Iniciando uma release
-
-    ```bash
-    git flow release start 1.0.1
-    ```
-
-- Primeiro, crie a tag com uma mensagem:
-
-    ```bash
-    git tag -a v1.0.1 -m "Release version 1.0.1"
-    ```
-
-
-- Fazendo o push das tags
-
-    ```bash
-    git push --tags
-    ```
-
-- Finalizando a release
-
-    ```bash
-    git flow release finish 1.0.1
-    ```
+# Fazer push das tags criadas automaticamente
+```bash
+git push --tags
+```
